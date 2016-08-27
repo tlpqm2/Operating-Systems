@@ -1,0 +1,133 @@
+Script started on Sat 06 Feb 2016 07:30:22 PM CST
+]0;tyler@destructonator: ~/school/ostyler@destructonator:~/school/os$ sh hw1.sh 
+Input 1,2,3 or 4 to pick an option
+1 - Print process tree for current process
+2 - Output which users are online
+3 - Output processes a given user is running
+4 - Exit
+1
+The process tree for current process is: 
+
+3553
+  |
+3514
+  |
+3513
+  |
+3512
+  |
+2050
+  |
+2043
+  |
+1435
+  |
+1188
+  |
+1108
+  |
+1
+
+Input 1,2,3 or 4 to pick an option
+1 - Print process tree for current process
+2 - Output which users are online
+3 - Output processes a given user is running
+4 - Exit
+2
+
+tyler
+
+Input 1,2,3 or 4 to pick an option
+1 - Print process tree for current process
+2 - Output which users are online
+3 - Output processes a given user is running
+4 - Exit
+3
+Select an online user and view his processes
+
+0)  tyler
+
+0
+
+tyler     1432     1  0 19:04 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+tyler     1435  1188  0 19:04 ?        00:00:00 init --user
+tyler     1500  1435  0 19:04 ?        00:00:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-GGBr5zNY5G
+tyler     1511  1435  0 19:04 ?        00:00:00 upstart-event-bridge
+tyler     1517  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+tyler     1520  1435  0 19:04 ?        00:00:07 /usr/bin/ibus-daemon --daemonize --xim
+tyler     1530  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfsd
+tyler     1545  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+tyler     1547  1520  0 19:04 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+tyler     1548  1520  0 19:04 ?        00:00:01 /usr/lib/ibus/ibus-ui-gtk3
+tyler     1550  1435  0 19:04 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+tyler     1573  1435  0 19:04 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+tyler     1577  1435  0 19:04 ?        00:00:03 /usr/lib/x86_64-linux-gnu/hud/hud-service
+tyler     1580  1435  0 19:04 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+tyler     1584  1435  0 19:04 ?        00:00:00 gnome-session --session=ubuntu
+tyler     1588  1580  0 19:04 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+tyler     1593  1435  0 19:04 ?        00:00:02 /usr/lib/unity/unity-panel-service
+tyler     1599  1435  0 19:04 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+tyler     1600  1435  0 19:04 ?        00:00:00 upstart-file-bridge --daemon --user
+tyler     1602  1435  0 19:04 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+tyler     1604  1435  0 19:04 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+tyler     1624  1435  0 19:04 ?        00:00:01 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+tyler     1632  1520  0 19:04 ?        00:00:02 /usr/lib/ibus/ibus-engine-simple
+tyler     1652  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+tyler     1656  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+tyler     1661  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+tyler     1662  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+tyler     1668  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+tyler     1669  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+tyler     1675  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+tyler     1682  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+tyler     1688  1435  0 19:04 ?        00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+tyler     1699  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+tyler     1702  1435  0 19:04 ?        00:00:00 /usr/lib/dconf/dconf-service
+tyler     1711  1573  0 19:04 ?        00:00:00 syndaemon -i 1.0 -t -K -R
+tyler     1727  1435  0 19:04 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+tyler     1754  1584  1 19:04 ?        00:00:21 compiz
+tyler     1756  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
+tyler     1768  1584  0 19:04 ?        00:00:00 nm-applet
+tyler     1769  1584  0 19:04 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+tyler     1771  1584  0 19:04 ?        00:00:00 nautilus -n
+tyler     1779  1584  0 19:04 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+tyler     1794  1435  0 19:04 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+tyler     1800  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+tyler     1816  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+tyler     1818  1435  0 19:04 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+tyler     1822  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+tyler     1828  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+tyler     1843  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+tyler     1881  1435  0 19:04 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+tyler     2043  1435  0 19:04 ?        00:00:09 gnome-terminal
+tyler     2049  2043  0 19:04 ?        00:00:00 gnome-pty-helper
+tyler     2050  2043  0 19:04 pts/1    00:00:00 bash
+tyler     2120  1584  0 19:04 ?        00:00:00 telepathy-indicator
+tyler     2129  1435  0 19:04 ?        00:00:00 /usr/lib/telepathy/mission-control-5
+tyler     2150  1584  0 19:05 ?        00:00:00 zeitgeist-datahub
+tyler     2155  1435  0 19:05 ?        00:00:00 /usr/bin/zeitgeist-daemon
+tyler     2162  1435  0 19:05 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+tyler     2179  2162  0 19:05 ?        00:00:00 /bin/cat
+tyler     2239  1584  0 19:05 ?        00:00:00 update-notifier
+tyler     2272  1435  1 19:06 ?        00:00:20 /opt/sublime_text/sublime_text hw1.sh
+tyler     2285  2272  0 19:06 ?        00:00:00 /opt/sublime_text/plugin_host 2272
+tyler     2293  1584  0 19:06 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+tyler     3159  1435  0 19:25 ?        00:00:01 /usr/lib/libreoffice/program/soffice.bin --writer /home/tyler/Downloads/assignment1 (4).docx --splash-pipe=5
+tyler     3182  1435  0 19:26 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+tyler     3512  2050  0 19:30 pts/1    00:00:00 script mySession1.txt
+tyler     3513  3512  0 19:30 pts/1    00:00:00 script mySession1.txt
+tyler     3514  3513  0 19:30 pts/3    00:00:00 bash -i
+tyler     3553  3514  0 19:30 pts/3    00:00:00 sh hw1.sh
+tyler     3611  3553  0 19:30 pts/3    00:00:00 ps -ef
+tyler     3612  3553  0 19:30 pts/3    00:00:00 awk $1 ~ "tyler" {print}
+
+Input 1,2,3 or 4 to pick an option
+1 - Print process tree for current process
+2 - Output which users are online
+3 - Output processes a given user is running
+4 - Exit
+4
+]0;tyler@destructonator: ~/school/ostyler@destructonator:~/school/os$ exit
+exit
+
+Script done on Sat 06 Feb 2016 07:30:36 PM CST
